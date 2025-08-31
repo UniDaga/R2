@@ -219,7 +219,7 @@ def main():
         token_usdc = TOKEN_MAPPING["USDC"]
         token_r2usd = TOKEN_MAPPING["R2USD"]
 
-        for round_num in range(1, 96):
+        for round_num in range(1, 50):
             console.print(f"\n[bold yellow]🔁 Round {round_num}[/bold yellow]")
             try:
                 random_amount = round(random.uniform(0.1, 1.0), 2)
